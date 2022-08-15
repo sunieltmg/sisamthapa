@@ -1,0 +1,22 @@
+Dominent Color: #0A4D6E
+Secondary Color: #4B7EA2 or #D0F5FF
+Accent Color: #E89B25 moreDark(#d08616) or mostDark(#a16811)
+
+Font Size
+
+normal text: 16px / 1rem 
+small heading: 16px * 1.618 / 1 * 1.618rem = 1.618rem
+medium heading: 1.618rem * 1.618rem = 2.62rem
+Big heading: 2.62rem * 1.618rem = 4.24rem;
+
+
+LineHeight
+
+normal text: 1.618rem
+small heading: 2.62rem
+medium heading: 4.24rem
+big heading: 6.85rem
+
+Transition
+
+1) Always recommended to add short duration animation and in millisecond(ms) since JS only understand it.

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="Images/grandy.jpg" />
+
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="Style/style.css" />
+
+    <!-- Fontawesome Pro Cdn Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Grandy Hospital</title>
+  </head>
+  <body>
+    <!-- ######### Header ######### -->
+    <div class="main">
+      <div class="header">
+        <img src="Images/hospital_logo.png">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#landing" class="header__link">Home</a>
+          </li>
+        
+          <li class="header__item">
+            <a href="#service" class="header__link">Services</a>
+          </li>
+          <li class="header__item">
+            <a href="#contact" class="header__link">Contactme</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ######### Landing ######### -->
+      <div class="landing" id="landing">
+        <div class="landing__content">
+          <h1 class="landing__title">Grandy International Hospital</h1>
+          <p class="landing__description">
+            Grande International Hospital, Kathmandu is a multi-specialty hospital that offers preventive and curative healthcare services. It was established with a motive “Care to Cure” in February 2010.
+          </p>
+          <button class="landing__button">
+            <span class="landing__buttonText"> Download Price List </span>
+            <span class="landing__buttonIcon">
+              <a
+                class="landing_buttonIconLink"
+                href="./Data/price.pdf"
+                download="Grandy Price list.pdf"
+              >
+                <ion-icon name="cloud-download-outline"></ion-icon>
+              </a>
+            </span>
+          </button>
+        </div>
+        <div class="landing__imgContainer">
+          <img
+            src="Images/grandy.jpg"
+            alt="grandy"
+            class="landing__img"
+          />
+        </div>
+      </div>
+
+      <!-- ######### service  ######### -->
+      <div class="service" id="service">
+        <h1 class="service__heading">SERVICES</h1>
+        <div class="service__content">
+          <div class="service__item">
+            <img
+              src="./Images/emergency.jpg"
+              alt="Emergency Services"
+              class="service__image",
+              height="200",
+              width="100%"
+            />
+            <h3 class="service__title">Emergency Services
+            </h3>
+            <p class="service__description">
+              State-of-the-art 15 bed Emergency Room with a resuscitation room and a stand-by trauma team. 24hr consultant on stand-by.
+            </p>
+          </div>
+
+          <div class="service__item">
+            <img
+              src="./Images/rescue.jpg"
+              alt="Rapid Rescue"
+              class="service__image",
+              height="200",
+              width="100%"
+            />
+            <h3 class="service__title">Rapid Rescue</h3>
+            <p class="service__description">
+              A 24x7 standby emergency medical team is ready for rescue from any part of Nepal, which includes a trauma consultant and paramedics with all equipment. 
+            </p>
+          </div>
+
+          <div class="service__item">
+            <img
+              src="./Images/fertility.jpg"
+              alt="fertility"
+              class="service__image"
+              height="200",
+              width="100%"
+            />
+            <h3 class="service__title">Assisted Fertility Center
+            </h3>
+            <p class="service__description">
+              Grande International Hospital’s Assisted Fertility Center is a dedicated department that has been setup to help parents who have not been able to conceive the natural way. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ######### Contact  ######### -->
+      <div class="contact" id="contact">
+        <h1 class="contact__heading">
+          GET IN TOUCH
+        </h1>
+        <div class="contact__content">
+          <div class="contact__item1">
+              <h3 class="contact__infoText">
+                Hi, are you looking for high quality services ?
+              </h3>
+
+              <div class="contact__socialMedia">
+                <a href="#"><ion-icon name="logo-facebook" class="contact__socialIcon"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram" class="contact__socialIcon"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-whatsapp" class="contact__socialIcon"></ion-icon></a>
+              </div>
+          </div>
+          <div class="contact__item2">
+            <div class="contact__body">
+              <ion-icon name="mail" class="contact__icon"></ion-icon>
+              <p class="emailText">info@grandehospital.com</p>
+            </div>
+
+            <div class="contact__body">
+              <ion-icon name="call" class="contact__icon"></ion-icon>
+              <p class="phoneText">+977015159266</p>
+            </div>
+
+            <div class="contact__body">
+              <ion-icon name="globe" class="contact__icon"></ion-icon>
+              <p class="siteText">https://www.grandehospital.com</p>
+            </div>
+
+            <div class="contact__body">
+              <ion-icon name="navigate" class="contact__icon"></ion-icon>
+              <p class="locationText">Kathmandu, Nepal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+    <!-- ionIcons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
